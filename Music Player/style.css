@@ -1,0 +1,66 @@
+body{
+    background-color: #fff1e6;
+   
+}
+
+.maindiv{
+    background-color: white;
+    height: 39em;
+    width: 24em;
+   margin-left: 35em;
+    border-radius: 26px;
+    text-align: center;
+    padding-top: 2em;
+    margin-top: 1em;
+    box-shadow:0 1.2rem 3rem 0.5rem rgba(0,0,0,0.2);
+    
+    
+
+}
+ img{
+    width: 14em;
+    height: 14em;
+    margin-top: 5em;
+    border-radius: 50%;
+}
+.icons{
+    margin-top: 5em;
+    
+}
+#prev ,#play, #next{
+    padding: 20px;
+   font-size: 2em;
+   
+    
+}
+.anime {
+    animation: rotatePlayer 3s linear infinite;
+
+}
+@keyframes rotatePlayer{
+  from{ transform: rotate(0 deg);
+
+    }
+    to{ transform: rotate(360 deg);
+       }
+}
+h3{
+    color: gray;
+   
+}
+h1{
+    text-shadow: 2px 2px 4px #d4d4d4;
+ 
+}
+#prev:hover{
+    color: grey;
+   
+}
+#play:hover{
+    color: grey;
+}
+#next:hover{
+    color: grey;
+}
+
+
